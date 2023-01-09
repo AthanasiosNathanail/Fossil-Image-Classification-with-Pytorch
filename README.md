@@ -5,7 +5,7 @@ As introduced in my other repository, the custom model used for this project can
 
 Fossils and their understanding play an important role to the explanation and interpretation of the geology. The correct characterization and classification of fossils can provide useful information and assist in the interpretation of a depositional environment. Therefore, the goal of the presented application is to provide a tool for geologists to automatically classify fossils among different classes.
 
-The dataset used for this project is a synthetic dataset i generated myself with the help of artificial intelligence to enrich real-world fossil datasets. Synthetic data is an excellent solution to small datasets as the synthetic data can increase the number of images per class, significantly improve the variability of the dataset at hand, and as demonstrated from the results of this project, and can also be used as a stand-alone dataset to train a fossil classifier. 
+The dataset used for this project is a synthetic dataset I generated myself with the help of artificial intelligence to enrich real-world fossil datasets. Synthetic data is an excellent solution to small datasets as the synthetic data can increase the number of images per class, significantly improve the variability of the dataset at hand, and as demonstrated from the results of this project, and can also be used as a stand-alone dataset to train a fossil classifier. 
 
 Let's dive in the code!
 
@@ -48,21 +48,30 @@ Once the anaconda environment is set up, you can download the code from this rep
 ## Dataset
 
 The dataset is open access and can be downloaded from the following link: https://zenodo.org/record/7510741#.Y7voc3ZBwuV
-For more information about the specific synthetic data stay tuned for my upcoming publication where i fully describe the dataset.
+For more information about the specific synthetic data stay tuned for my upcoming publication where I fully describe the dataset.
 
 After downloading and unzipping the data, all the images should be put in the corresponding folders and follow the structure explained in my Image Classification repo (https://github.com/AthanasiosNathanail/Image-Classification-with-Pytorch-on-a-Custom-Dataset). The structure is also summarized in the following figure.
 
 ![Data structure](DataStructure.jpg)
 
-Once all the data is in place, we can start running the script.
+Once all the data is in place, we can start running the script. 
 
-Here are a few images of the data visualization.
+Here are a few images for the visualization of our data.
 
-![Sample images](sample images.jpg)
+![Sample images](sample.jpg)
 
-![Image Proportions per Category](image proportions per category.jpg)
+![Image Proportions per Category](proportions.jpg)
+
+## Inference and Results
 
 Upon the completion of the training step, the confusion matrix is generated. The overall test accuracy of the model across all classes is 0.7943, which is good, but it can definitely be improved by further modifying the model.
+
+
+![Confusion Matrix](cfm.jpg)
+
+
+![Results in csv format](results.jpg)
+
 
 For the specific run of the model and results shown, the model was trained for 63 epoches, using a RAM of 16GB, Processor: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz 3.79 GHz, and a GPU: NVIDIA GeForce RTX 2080 Super. 
 The parameters used for the particular hardware were:
