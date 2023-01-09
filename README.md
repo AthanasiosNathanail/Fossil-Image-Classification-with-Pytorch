@@ -58,11 +58,18 @@ Once all the data is in place, we can start running the script.
 
 Here are a few images of the data visualization.
 
-![Sample images](sample images.jpg)
+![Sample images](sample.jpg)
 
-![Image Proportions per Category](image proportions per category.jpg)
+![Image Proportions per Category](proportions.jpg)
 
 Upon the completion of the training step, the confusion matrix is generated. The overall test accuracy of the model across all classes is 0.7943, which is good, but it can definitely be improved by further modifying the model.
+
+
+![Confusion Matrix](cfm.jpg)
+
+
+![Results in csv format](results.jpg)
+
 
 For the specific run of the model and results shown, the model was trained for 63 epoches, using a RAM of 16GB, Processor: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz 3.79 GHz, and a GPU: NVIDIA GeForce RTX 2080 Super. 
 The parameters used for the particular hardware were:
