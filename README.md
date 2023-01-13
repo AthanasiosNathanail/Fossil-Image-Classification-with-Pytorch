@@ -7,6 +7,8 @@ Fossils and their understanding play an important role to the explanation and in
 
 The dataset used for this project is a synthetic dataset I generated myself with the help of artificial intelligence to enrich real-world fossil datasets. Synthetic data is an excellent solution to small datasets as the synthetic data can increase the number of images per class, significantly improve the variability of the dataset at hand, and as demonstrated from the results of this project, and can also be used as a stand-alone dataset to train a fossil classifier. 
 
+The model presented in this project was trained only on synthetic fossil images with goal to predict the fossil class present on real images.
+
 Let's dive in the code!
 
 ## Installation
