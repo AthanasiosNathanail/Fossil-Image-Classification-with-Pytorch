@@ -50,7 +50,10 @@ Once the anaconda environment is set up, you can download the code from this rep
 ## Dataset
 
 The dataset is open access and can be downloaded from the following link: https://zenodo.org/record/7510741#.Y7voc3ZBwuV
-For more information about the specific synthetic data stay tuned for my upcoming publication where I fully describe the dataset.
+For more information about the specific synthetic data, have a look at my publication, "Geo Fossils-I: A synthetic dataset of 2D fossil images for computer vision applications on geology", where I fully describe the dataset. 
+
+Link to the paper: https://www.sciencedirect.com/science/article/pii/S2352340923003074?via%3Dihub
+DOI: https://doi.org/10.1016/j.dib.2023.109188
 
 After downloading and unzipping the data, all the images should be put in the corresponding folders and follow the structure explained in my Image Classification repo (https://github.com/AthanasiosNathanail/Image-Classification-with-Pytorch-on-a-Custom-Dataset). The structure is also summarized in the following figure.
 
